@@ -1,0 +1,27 @@
+[user]
+	email = auh_s2tw@proton.me
+	name = vermillionaire-jpg
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = vim
+	autocrlf = input
+
+[pull]
+	rebase = false
+
+[push]
+	default = simple
+	autoSetupRemote = true
+[credential]
+	helper = store
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	lg = log --oneline --graph --decorate --all
+[format]
+	pretty = format:%C(yellow)%h%C(reset) %s %C(blue)(%cr) %C(green)%an%C(reset)
