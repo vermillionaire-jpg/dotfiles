@@ -34,7 +34,7 @@ set smartindent           " Basic smart C-style autoindenting
 set textwidth=80          " Hard-wrap at 80 columns (affects 'gq' formatting)
 set colorcolumn=81        " Highlight column 81 as a line-length warning
 highlight ColorColumn   ctermbg=52    guibg=#5f0000   " Dark red — visible on black bg
-highlight CursorLine    cterm=NONE    ctermbg=17  guibg=#00005f   " Dark blue cursor line
+highlight CursorLine    cterm=NONE    ctermbg=17  guibg=#f0ffff   " Dark blue cursor line
 highlight Search        ctermfg=0     ctermbg=214 guifg=#000000 guibg=#ffaf00  " Black text on amber
 highlight Visual        ctermfg=0     ctermbg=75  guifg=#000000 guibg=#5fafff  " Black text on sky blue
 
